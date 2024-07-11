@@ -1,0 +1,159 @@
+/* WORK SECTION STARTS */
+
+.work-exp-title{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.profession{
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 40px;
+    justify-content: left;
+    gap: 45px;
+    align-items: center;
+}
+
+.work1{
+    width: 250px;
+}
+.work-title{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.work-duration{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.vl{
+    border-left: 4px solid #1f88f1;
+    height: 150px;
+  }
+
+  /* WORK SECTION ENDS */
+
+
+  /* ACHIEVEMENTS SECTION STARTS */
+
+.achievements-title{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.certificates{
+    display: grid;
+    grid-auto-flow: column;
+    margin-left: 120px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    justify-content: left;
+    gap: 20px;
+    align-items: center;
+    overflow-x: auto;
+}
+.certificates::-webkit-scrollbar{
+    display: none;
+}
+
+.certificate-pic{
+    width: 400px;
+    margin: 20px 0px;
+}
+
+
+  /* ACHIEVEMENTS SECTION ENDS */
+
+
+  /* CONTACT SECTION STARTS */
+
+.bottom-social-icons{
+    margin: 10px 20px;
+    gap: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.contact-inputs{
+    width: 400px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    color: #0e0a1f;
+    padding-left: 10px;
+    border-radius: 4px;
+}
+
+.contact-form textarea{
+    max-height: 150px;
+    max-width: 400px;
+    min-width: 400px;
+    padding-top: 5px;
+}
+
+.contact-inputs:focus{
+    border: 1px solid #1f88f1;
+}
+
+.contact-inputs::placeholder{
+    color: #0e0a1f;
+    font-weight: 300;
+    font-family: 'Kanit', sans-serif;
+}
+
+.send-message{
+    width: 100px;
+    font-size: 12px;
+}
+
+.contact-form button{
+    font-size: 12px;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 5px;
+    background-color: #1f88f1;
+    width: 100px;
+    transition: 0.3s ease-out;
+}
+.contact-form button:hover{
+    transform: scale(1.1);
+}
+
+ /* CONTACT SECTION ENDS */
+
+ /* FOOTER SECTION STARTS */
+
+.footerbg{
+    background: linear-gradient(90deg,#1f88f1,#0e0a1f);
+}
+.footerbg img{
+    width: 150px;
+    margin-left: 25px;
+    padding: 5px 0px;
+}
+
+ /* FOOTER SECTION ENDS */

@@ -1,0 +1,51 @@
+.about-title{
+    margin-top: -100px;
+    width: 100%;
+}
+
+.about-details{
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.left-about-details{
+    margin-top: 50px;
+    border: 1px solid #1f88f1;
+    border-radius: 20px;
+    height: 300px;
+    max-width: 700px;
+    overflow: auto;
+}
+.speech-comma{
+    width: 80px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.speech{
+    margin: 10px 30px;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.right-about-details{
+    margin-top: 50px;
+}
+
+.icon-about{
+    width: 50px;
+    margin: 15px 15px;
+}
+
+.edu1, .edu2, .edu3{
+    display: flex;
+    align-items: center;
+}
+
+.cuet-text, .ghmmc-text, .nghs-text{
+    font-size: 15px;
+    font-weight: 400;
+}

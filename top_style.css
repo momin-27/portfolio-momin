@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: 'Kanit', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0e0a1f;
+}
+
+
+/* NAV BAR STARTS */
+
+
+.nav-bar{
+    background-color: #1f88f1;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 100%;
+}
+.nav-bar{
+    position: sticky;
+}
+
+.nav-bar h2{
+    text-align: left;
+    color: #0e0a1f;
+    padding-left: 40px;
+    padding-top: 5px;
+    font-weight: 800;
+    
+}
+.nav-links{
+    padding-right: 75px;
+    gap: 30px;
+    display: flex;
+}
+
+.button1{
+    text-align: center;
+    color: #0e0a1f;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.3s ease-out;
+}
+.button1:hover{
+    transform: scale(1.1);
+    color: #ffffff;
+}
+
+
+/* NAV BAR ENDS */
+
+
+
+
+
+
+
+
+
+
+
+/* PROFILE SECTION STARTS */
+
+
+.cover-pic,img{
+    width: 100%;
+    
+}
+
+.profile-details{
+    margin: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.left-profile-details{
+    position: relative;
+    bottom: 125px;
+}
+
+.profile-pic{
+    width: 200px;
+    border: 8px solid #0e0a1f;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 120px;
+}
+
+.Name{
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-align: left;
+    margin-left: 110px;
+}
+.Info{
+    margin-top: 0px;
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    text-align: left;
+    margin-left: 110px;
+}
+.social-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-left: 110px;
+    margin-top: 20px;
+    align-items: center;
+    font-size: 1pt;
+}
+.icon-name1, .icon-name2, .icon-name3,
+.icon-name4, .icon-name5, .icon-name6{
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+
+.s-icon1:hover .icon-name1, .s-icon2:hover  .icon-name2,.s-icon3:hover .icon-name3,
+.s-icon4:hover .icon-name4, .s-icon5:hover .icon-name5, .s-icon6:hover .icon-name6{
+    opacity: 1;
+}
+
+.s-icon1, .s-icon2, .s-icon3, .s-icon4, .s-icon5, .s-icon6{
+    transition: .3s ease-out;
+}
+
+.s-icon1:hover, .s-icon2:hover, .s-icon3:hover,
+.s-icon4:hover, .s-icon5:hover, .s-icon6:hover{
+    transform: scale(1.2);
+    box-shadow: #1f88f1;
+}
+
+.s-icon{
+    width: 40px;
+}
+
+.icon-name{
+    color: #1f88f1;
+}
+
+
+.right-profile-details{
+    position: relative;
+    bottom: 0px;
+}
+.cv-button{
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.button2{
+        text-align: center;
+        color: #1f88f1;
+        padding: 10px 25px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        border: 1px solid #1f88f1;
+        border-radius: 7px;
+        transition: .3s;
+}
+
+.button2:hover{
+        background-color: #1f88f1;
+        color: #ffffff;
+        transform: scale(1.1);
+}
+
+.text-desig-year{
+    font-size: 15px;
+    gap: 200px;
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+.text-year{
+    text-align: right;
+}
+
+.company-logo-name{
+    display: flex;
+    margin-top: 5px;
+    align-items: end;
+    justify-content: end;
+    gap: 65px;
+}
+
+.company-logo{
+    width: 50px;
+}
+.company-name{
+    margin-left: 20px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+
+
+/* PROFILE SECTION ENDS */
